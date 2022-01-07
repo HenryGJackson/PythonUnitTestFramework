@@ -14,7 +14,7 @@
    - TestModule1
      - TestFile2 
 
-Tests that are included within the above structure will be automatically detected by the framework and then the framework will execute a function within that file.
+Tests that are included within the above structure will be automatically detected by the framework.
 
 # Example Test
 
