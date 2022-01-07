@@ -23,20 +23,20 @@ The file should include one class named "Test" and that class must have a functi
 An example is as follows:
 
 test.py:
+```python
+class Test :
+    def doSomeCheck() :
+        return True
 
-    class Test :
-        def doSomeCheck() :
-            return True
-        
-        def run() :
-            success : bool = True
-            msg : str = ""
+    def run() :
+        success : bool = True
+        msg : str = ""
 
-            if not doSomeCheck() :
-                success = False
-                msg += "Failed some check"
+        if not doSomeCheck() :
+            success = False
+            msg += "Failed some check"
 
-            return (success, msg)
-        
+        return (success, msg)
+```
         
     
