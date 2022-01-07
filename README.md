@@ -20,7 +20,7 @@ Tests that are included within the above structure will be automatically detecte
 
 The file should include one class named "Test" and that class must have a function run() which returns a tuple of a bool which determines the success of the test and a string which describes the result of the test.
 
-an example is as follows:
+An example is as follows:
 
 test.py:
 
